@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	8344843E16DA5DEE008C8116 /* normalClassObjects */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = normalClassObjects;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8344846716DA5E0D008C8116 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8344846816DA5E0D008C8116 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	834489F016DAF771008C8116 /* particle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 432}}";
+			sepNavSelRange = "{309, 0}";
+			sepNavVisRange = "{129, 185}";
+		};
+	};
+	834489F116DAF771008C8116 /* particle.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 416}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{128, 238}";
+		};
+	};
+	83448A3C16DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83448A3D16DB5DD6008C8116 /* stl_algo.h */;
+		name = "stl_algo.h: 1227";
+		rLen = 0;
+		rLoc = 42136;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 41773;
+	};
+	83448A3D16DB5DD6008C8116 /* stl_algo.h */ = {
+		isa = PBXFileReference;
+		name = stl_algo.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algo.h";
+		sourceTree = "<absolute>";
+	};
+	83448A3E16DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83448A3F16DB5DD6008C8116 /* ofUtils.h */;
+		name = "ofUtils.h: 53";
+		rLen = 61;
+		rLoc = 1164;
+		rType = 0;
+		vrLen = 563;
+		vrLoc = 876;
+	};
+	83448A3F16DB5DD6008C8116 /* ofUtils.h */ = {
+		isa = PBXFileReference;
+		name = ofUtils.h;
+		path = /Users/chris/Desktop/of_v0.7.4_osx_release/libs/openFrameworks/utils/ofUtils.h;
+		sourceTree = "<absolute>";
+	};
+	83448A4016DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 834489F016DAF771008C8116 /* particle.h */;
+		name = "particle.h: 26";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 129;
+	};
+	83448A4116DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 834489F116DAF771008C8116 /* particle.cpp */;
+		name = "particle.cpp: 16";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 128;
+	};
+	83448A4216DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 539;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 91;
+	};
+	83448A4316DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 61";
+		rLen = 0;
+		rLoc = 1667;
+		rType = 0;
+		vrLen = 502;
+		vrLoc = 1321;
+	};
+	83448A4416DB5DD6008C8116 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 37";
+		rLen = 0;
+		rLoc = 840;
+		rType = 0;
+		vrLen = 461;
+		vrLoc = 1921;
+	};
+	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8344843E16DA5DEE008C8116 /* normalClassObjects */;
+		activeTarget = E4B69B5A0A3A1756003C02F2 /* normalClassObjects */;
+		addToTargets = (
+			E4B69B5A0A3A1756003C02F2 /* normalClassObjects */,
+		);
+		codeSenseManager = 8344846816DA5E0D008C8116 /* Code sense */;
+		executables = (
+			8344843E16DA5DEE008C8116 /* normalClassObjects */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 383448817;
+			PBXWorkspaceStateSaveDate = 383448817;
+		};
+		perUserProjectItems = {
+			83448A3C16DB5DD6008C8116 /* PBXTextBookmark */ = 83448A3C16DB5DD6008C8116 /* PBXTextBookmark */;
+			83448A3E16DB5DD6008C8116 /* PBXTextBookmark */ = 83448A3E16DB5DD6008C8116 /* PBXTextBookmark */;
+			83448A4016DB5DD6008C8116 /* PBXTextBookmark */ = 83448A4016DB5DD6008C8116 /* PBXTextBookmark */;
+			83448A4116DB5DD6008C8116 /* PBXTextBookmark */ = 83448A4116DB5DD6008C8116 /* PBXTextBookmark */;
+			83448A4216DB5DD6008C8116 /* PBXTextBookmark */ = 83448A4216DB5DD6008C8116 /* PBXTextBookmark */;
+			83448A4316DB5DD6008C8116 /* PBXTextBookmark */ = 83448A4316DB5DD6008C8116 /* PBXTextBookmark */;
+			83448A4416DB5DD6008C8116 /* PBXTextBookmark */ = 83448A4416DB5DD6008C8116 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8344846716DA5E0D008C8116 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E4B69B5A0A3A1756003C02F2 /* normalClassObjects */ = {
+		activeExec = 0;
+		executables = (
+			8344843E16DA5DEE008C8116 /* normalClassObjects */,
+		);
+	};
+	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1552}}";
+			sepNavSelRange = "{840, 0}";
+			sepNavVisRange = "{1921, 461}";
+		};
+	};
+	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 432}}";
+			sepNavSelRange = "{539, 0}";
+			sepNavVisRange = "{91, 455}";
+		};
+	};
+}
