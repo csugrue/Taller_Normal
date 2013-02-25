@@ -66,6 +66,7 @@
 	};
 	83448B5216DBB20A008C8116 /* ofMesh.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = ofMesh.h;
 		path = /Users/chris/Desktop/of_v0.7.4_osx_release/libs/openFrameworks/3d/ofMesh.h;
 		sourceTree = "<absolute>";
@@ -121,14 +122,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 383495608;
-			PBXWorkspaceStateSaveDate = 383495608;
+			PBXPerProjectTemplateStateSaveDate = 383528087;
+			PBXWorkspaceStateSaveDate = 383528087;
 		};
 		perUserProjectItems = {
-			834489D716DAF6E5008C8116 /* PBXTextBookmark */ = 834489D716DAF6E5008C8116 /* PBXTextBookmark */;
-			83448B5116DBB20A008C8116 /* PBXTextBookmark */ = 83448B5116DBB20A008C8116 /* PBXTextBookmark */;
-			83448B5316DBB20A008C8116 /* PBXTextBookmark */ = 83448B5316DBB20A008C8116 /* PBXTextBookmark */;
-			83448B5416DBB20A008C8116 /* PBXTextBookmark */ = 83448B5416DBB20A008C8116 /* PBXTextBookmark */;
+			834489D716DAF6E5008C8116 = 834489D716DAF6E5008C8116 /* PBXTextBookmark */;
+			83448B5116DBB20A008C8116 = 83448B5116DBB20A008C8116 /* PBXTextBookmark */;
+			83448B5316DBB20A008C8116 = 83448B5316DBB20A008C8116 /* PBXTextBookmark */;
+			83448B5416DBB20A008C8116 = 83448B5416DBB20A008C8116 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8344896916DAEFF7008C8116 /* Source Control */;
 		userBuildSettings = {

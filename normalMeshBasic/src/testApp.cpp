@@ -7,24 +7,24 @@ void testApp::setup(){
 	image.resize(640,480);
 	
 	// set up mesh
-	// 0 ------------ 2
+	// 0 ------------ 3
 	// |              |
 	// |              |
 	// |              |
-	// 1 ------------ 3
+	// 1 ------------ 2
 
 	mesh.addVertex(ofPoint(0,0,0));
 	mesh.addVertex(ofPoint(0,image.getHeight(),0));
-	mesh.addVertex(ofPoint(image.getWidth(),0,0));
 	mesh.addVertex(ofPoint(image.getWidth(),image.getHeight(),0));
+	mesh.addVertex(ofPoint(image.getWidth(),0,0));
 	
 	mesh.addTexCoord(ofPoint(0,0));
 	mesh.addTexCoord(ofPoint(0,image.getHeight()));
-	mesh.addTexCoord(ofPoint(image.getWidth(),0));
 	mesh.addTexCoord(ofPoint(image.getWidth(),image.getHeight()));
+	mesh.addTexCoord(ofPoint(image.getWidth(),0));
 	
 	mesh.addTriangle(0,1,2);
-	mesh.addTriangle(2,1,3);
+	mesh.addTriangle(0,2,3);
 	
 	
 }

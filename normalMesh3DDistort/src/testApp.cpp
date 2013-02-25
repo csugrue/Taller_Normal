@@ -21,13 +21,15 @@ void testApp::setup(){
 	int w = width;
 	for (int y = 0; y<height-1; y++){
 		for (int x=0; x<width-1; x++){
-			mesh.addIndex(x+y*w);				
-			mesh.addIndex((x+1)+y*w);			
-			mesh.addIndex(x+(y+1)*w);			
 			
-			mesh.addIndex((x+1)+y*w);		
-			mesh.addIndex((x+1)+(y+1)*w);		
-			mesh.addIndex(x+(y+1)*w);			
+			mesh.addIndex(x+y*w);				
+			mesh.addIndex(x+(y+1)*w);
+			mesh.addIndex((x+1)+(y+1)*w);
+			
+			mesh.addIndex(x+y*w);
+			mesh.addIndex((x+1)+(y+1)*w);
+			mesh.addIndex((x+1)+y*w);			
+						
 		}
 	}
 	
