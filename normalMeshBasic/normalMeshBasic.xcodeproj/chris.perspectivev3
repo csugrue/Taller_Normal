@@ -325,11 +325,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>83448AD516DBA859008C8116</string>
+										<string>83A082FC16DCECE30082D67C</string>
 										<key>history</key>
 										<array>
 											<string>8344897D16DAF15A008C8116</string>
-											<string>834489A116DAF26D008C8116</string>
+											<string>832386CA16DC31630062D3A5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -343,18 +343,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {706, 380}}</string>
+								<string>{{0, 0}, {706, 368}}</string>
 								<key>RubberWindowFrame</key>
 								<string>232 55 913 586 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>380pt</string>
+							<string>368pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>160pt</string>
+							<string>172pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -368,7 +368,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {706, 133}}</string>
+										<string>{{10, 27}, {706, 145}}</string>
 										<key>RubberWindowFrame</key>
 										<string>232 55 913 586 0 0 1280 778 </string>
 									</dict>
@@ -452,11 +452,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>83448AD616DBA859008C8116</string>
+				<string>83A082FD16DCECE30082D67C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>83448AD716DBA859008C8116</string>
+				<string>83A082FE16DCECE30082D67C</string>
 				<string>834488ED16DAECEA008C8116</string>
-				<string>83448AD816DBA859008C8116</string>
+				<string>83A082FF16DCECE30082D67C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -605,14 +605,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>83448AD916DBA859008C8116</string>
+				<string>83A0830016DCECE30082D67C</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>83448ADA16DBA859008C8116</string>
-				<string>83448ADB16DBA859008C8116</string>
-				<string>83448ADC16DBA859008C8116</string>
-				<string>83448ADD16DBA859008C8116</string>
-				<string>83448ADE16DBA859008C8116</string>
+				<string>83A0830116DCECE30082D67C</string>
+				<string>83A0830216DCECE30082D67C</string>
+				<string>83A0830316DCECE30082D67C</string>
+				<string>83A0830416DCECE30082D67C</string>
+				<string>83A0830516DCECE30082D67C</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -646,8 +646,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>83448ADF16DBA859008C8116</string>
-		<string>83448AE016DBA859008C8116</string>
 		<string>/Users/chris/Desktop/of_v0.7.4_osx_release/apps/normalTaller/normalMeshBasic/normalMeshBasic.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

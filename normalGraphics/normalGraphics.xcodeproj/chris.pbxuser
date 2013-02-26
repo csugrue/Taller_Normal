@@ -56,6 +56,7 @@
 	};
 	834480DD16D99D39008C8116 /* ofGraphics.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = ofGraphics.h;
 		path = /Users/chris/Desktop/of_v0.7.4_osx_release/libs/openFrameworks/graphics/ofGraphics.h;
 		sourceTree = "<absolute>";
@@ -111,13 +112,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 383353498;
-			PBXWorkspaceStateSaveDate = 383353498;
+			PBXPerProjectTemplateStateSaveDate = 383577269;
+			PBXWorkspaceStateSaveDate = 383577269;
 		};
 		perUserProjectItems = {
-			834480DC16D99D39008C8116 /* PBXTextBookmark */ = 834480DC16D99D39008C8116 /* PBXTextBookmark */;
-			834480DE16D99D39008C8116 /* PBXTextBookmark */ = 834480DE16D99D39008C8116 /* PBXTextBookmark */;
-			834480DF16D99D39008C8116 /* PBXTextBookmark */ = 834480DF16D99D39008C8116 /* PBXTextBookmark */;
+			834480DC16D99D39008C8116 = 834480DC16D99D39008C8116 /* PBXTextBookmark */;
+			834480DE16D99D39008C8116 = 834480DE16D99D39008C8116 /* PBXTextBookmark */;
+			834480DF16D99D39008C8116 = 834480DF16D99D39008C8116 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8344806016D982B9008C8116 /* Source Control */;
 		userBuildSettings = {

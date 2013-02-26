@@ -23,7 +23,10 @@ void testApp::draw(){
 	
 	ofPushMatrix();
 	ofTranslate(0,ofGetHeight()/2);
-	for( int i = 0; i < 360; i++){
+	
+	int total = (ofGetWidth()/10.0) + 1;
+	
+	for( int i = 0; i < total; i++){
 	
 		float y = (i*amp)*sin(i*ang);
 		
