@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>5</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -314,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>8344867516DA9EC0008C8116</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.h</string>
+								<string>testApp.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,19 +322,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>8344867616DA9EC0008C8116</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>testApp.h</string>
+										<string>testApp.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>83A087ED16DE378D0082D67C</string>
+										<string>83A089D616DE9EDA0082D67C</string>
 										<key>history</key>
 										<array>
 											<string>83448A3C16DB5DD6008C8116</string>
 											<string>83448A3E16DB5DD6008C8116</string>
 											<string>83A087C416DE352C0082D67C</string>
 											<string>83A087C516DE352C0082D67C</string>
-											<string>83A087E716DE376D0082D67C</string>
-											<string>83A087E816DE376D0082D67C</string>
+											<string>83A089D416DE9EDA0082D67C</string>
+											<string>83A089D516DE9EDA0082D67C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,18 +348,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {799, 342}}</string>
+								<string>{{0, 0}, {799, 336}}</string>
 								<key>RubberWindowFrame</key>
 								<string>90 216 1006 523 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>342pt</string>
+							<string>336pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>135pt</string>
+							<string>141pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -373,7 +373,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {799, 108}}</string>
+										<string>{{10, 27}, {799, 114}}</string>
 										<key>RubberWindowFrame</key>
 										<string>90 216 1006 523 0 0 1280 778 </string>
 									</dict>
@@ -457,11 +457,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>83A087CA16DE35310082D67C</string>
+				<string>83A089D716DE9EDA0082D67C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>83A087CB16DE35310082D67C</string>
+				<string>83A089D816DE9EDA0082D67C</string>
 				<string>8344867516DA9EC0008C8116</string>
-				<string>83A087CC16DE35310082D67C</string>
+				<string>83A089D916DE9EDA0082D67C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -651,8 +651,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>83A087D316DE35310082D67C</string>
-		<string>83A087D416DE35310082D67C</string>
 		<string>/Users/chris/Desktop/of_v0.7.4_osx_release/apps/normalTaller/normalClassObjects/normalClassObjects.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

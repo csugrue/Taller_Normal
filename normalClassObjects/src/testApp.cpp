@@ -74,12 +74,7 @@ void testApp::mouseMoved(int x, int y ){
 	particles.push_back(Particle());
 	particles[ particles.size()-1 ].setup();
 	
-	//--- alternative, faster method:
-//	particles.resize( particles.size()+1);
-//	
-//	Particle p;
-//	p.setup();
-//	particles[ particles.size()-1 ] = p;
+
 
 }
 
