@@ -278,7 +278,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {185, 621}}</string>
+							<string>{{0, 0}, {185, 500}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -288,14 +288,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {202, 639}}</string>
+						<string>{{0, 0}, {202, 518}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>460 98 995 680 0 0 1280 778 </string>
+						<string>-8 39 995 559 0 0 832 602 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -325,12 +325,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>834485E416DA912E008C8116</string>
+										<string>83A083CF16DD3D5E0082D67C</string>
 										<key>history</key>
 										<array>
 											<string>8344813D16D9A1C8008C8116</string>
 											<string>834481FC16DA292D008C8116</string>
-											<string>8344823E16DA305C008C8116</string>
+											<string>834485E416DA912E008C8116</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,18 +344,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {788, 501}}</string>
+								<string>{{0, 0}, {788, 436}}</string>
 								<key>RubberWindowFrame</key>
-								<string>460 98 995 680 0 0 1280 778 </string>
+								<string>-8 39 995 559 0 0 832 602 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>501pt</string>
+							<string>436pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>133pt</string>
+							<string>77pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -369,9 +369,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {788, 106}}</string>
+										<string>{{10, 27}, {788, 50}}</string>
 										<key>RubberWindowFrame</key>
-										<string>460 98 995 680 0 0 1280 778 </string>
+										<string>-8 39 995 559 0 0 832 602 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -453,11 +453,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>834485BC16DA8ACF008C8116</string>
+				<string>83A083D016DD3D5E0082D67C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>834485BD16DA8ACF008C8116</string>
+				<string>83A083D116DD3D5E0082D67C</string>
 				<string>8344813B16D9A1C8008C8116</string>
-				<string>834485BE16DA8ACF008C8116</string>
+				<string>83A083D216DD3D5E0082D67C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -606,14 +606,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>834485E516DA912E008C8116</string>
+				<string>83A083D316DD3D5E0082D67C</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>834485E616DA912E008C8116</string>
-				<string>834485E716DA912E008C8116</string>
-				<string>834485E816DA912E008C8116</string>
-				<string>834485E916DA912E008C8116</string>
-				<string>834485EA16DA912E008C8116</string>
+				<string>83A083D416DD3D5E0082D67C</string>
+				<string>83A083D516DD3D5E0082D67C</string>
+				<string>83A083D616DD3D5E0082D67C</string>
+				<string>83A083D716DD3D5E0082D67C</string>
+				<string>83A083D816DD3D5E0082D67C</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -647,10 +647,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/chris/Desktop/of_v0.7.4_osx_release/apps/myApps/normalImages/normalImages.xcodeproj</string>
+		<string>/Users/chris/Desktop/of_v0.7.4_osx_release/apps/normalTaller/normalImages/normalImages.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>460 98 995 680 0 0 1280 778 </string>
+	<string>-8 39 995 559 0 0 832 602 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

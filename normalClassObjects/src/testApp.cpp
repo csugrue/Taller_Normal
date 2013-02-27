@@ -8,10 +8,13 @@ void testApp::setup(){
 	ofEnableAlphaBlending();
 	
 	dot.loadImage("dot.png");
+	dot.setAnchorPercent(.5,.5);
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
+	
+	ofSetWindowTitle( ofToString(ofGetFrameRate() ) );
 	
 	for( int i = 0; i < particles.size(); i++){
 		particles[i].update();
@@ -22,6 +25,10 @@ void testApp::update(){
 			particles.erase(particles.begin()+i);
 	}
 	
+	// alternative cleaner method to remove particles
+	// ofRemove(particles, shouldRemoveParticle);
+	
+	ofLogNotice() << "particles " << particles.size();
 }
 
 //--------------------------------------------------------------
@@ -31,10 +38,10 @@ void testApp::draw(){
 	
 	ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
 	ofSetColor(255);
+	
 	for( int i = 0; i < particles.size(); i++){
-		
 		//ofEllipse(particles[i].pos.x, particles[i].pos.y, particles[i].size, particles[i].size);
-		dot.draw(particles[i].pos.x-particles[i].size*.5, particles[i].pos.y-particles[i].size*.5, particles[i].size, particles[i].size);		
+		dot.draw(particles[i].pos.x, particles[i].pos.y, particles[i].size, particles[i].size);		
 	}
 	
 	for( int i = 0; i < particles.size(); i++){
@@ -50,6 +57,7 @@ void testApp::draw(){
 	}
 }
 
+
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 
@@ -62,8 +70,17 @@ void testApp::keyReleased(int key){
 
 //--------------------------------------------------------------
 void testApp::mouseMoved(int x, int y ){
+	
 	particles.push_back(Particle());
 	particles[ particles.size()-1 ].setup();
+	
+	//--- alternative, faster method:
+//	particles.resize( particles.size()+1);
+//	
+//	Particle p;
+//	p.setup();
+//	particles[ particles.size()-1 ] = p;
+
 }
 
 //--------------------------------------------------------------
@@ -96,4 +113,10 @@ void testApp::gotMessage(ofMessage msg){
 //--------------------------------------------------------------
 void testApp::dragEvent(ofDragInfo dragInfo){ 
 
+}
+
+//--------------------------------------------------------------
+bool testApp::shouldRemoveParticle(Particle &p) {
+    if(p.pos.y > ofGetHeight()+100) return true;
+	else return false;
 }

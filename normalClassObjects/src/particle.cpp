@@ -17,9 +17,8 @@ void Particle::setup(){
 
 void Particle::update(){
 	pos += vel;
-	vel += ofPoint(0,.1,0);
+	vel += ofVec3f(0,.1,0);
 	
 }
 
-void Particle::draw(){
-}
+

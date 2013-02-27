@@ -4,7 +4,7 @@
 void testApp::setup(){
 	
 	// set up for sound input
-	int bufferSize = 256;
+	int bufferSize = 128;
 	
 	left.assign(bufferSize, 0.0);
 	right.assign(bufferSize, 0.0);
@@ -14,10 +14,10 @@ void testApp::setup(){
 	smoothedVol     = 0.0;
 	scaledVol		= 0.0;
 	
-	soundStream.setup(this, 0, 2, 44100, bufferSize, 4);
+	soundStream.setup(this, 0, 2, 44100, bufferSize, 2);
 	
 	// setup visuals
-	for( int i = 0; i < 256; i++){
+	for( int i = 0; i < bufferSize; i++){
 		
 		// get random postions on a sphere
 		float theta1=ofRandom(0, TWO_PI);
@@ -36,8 +36,7 @@ void testApp::setup(){
 	glowImg.loadImage("dot.png");
 	ofEnableAlphaBlending();
 	
-	//cout << "drag " << cam.getDrag() << endl;
-	cam.setDrag(.99);
+	//cam.setDrag(.99);
 }
 
 //--------------------------------------------------------------
@@ -106,7 +105,6 @@ void testApp::draw(){
 		
 		ofSetColor(255, 100, 90);
 		glowImg.draw(-radius*.5,-radius*.5,radius,radius);
-		//ofEllipse(0,0,10,10); 
 		
 		ofPopMatrix();
 	}

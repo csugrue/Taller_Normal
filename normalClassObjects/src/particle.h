@@ -18,9 +18,8 @@ class Particle{
 		
 		void setup();
 		void update();
-		void draw();
 		
-		ofPoint vel;
+		ofVec3f vel;
 		ofPoint pos;
 		float size;
 		

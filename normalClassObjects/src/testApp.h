@@ -20,6 +20,8 @@ class testApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+		static bool shouldRemoveParticle(Particle &p);
+		
 		vector<Particle> particles;
 		ofImage dot;
 		

@@ -22,10 +22,11 @@ void testApp::draw(){
 	int step = ofMap(mouseX,0,ofGetWidth(),2,50);
 	
 	ofSetRectMode(OF_RECTMODE_CENTER);
+	ofColor c;
 	
 	for(int x = 0; x < myImage.getWidth(); x+=step){
 		for(int y = 0; y < myImage.getHeight(); y+=step){
-			ofColor c = myImage.getColor(x, y);
+			 c = myImage.getColor(x, y);
 			ofSetColor(c);
 			ofRect(x,y,step,step);
 		}
