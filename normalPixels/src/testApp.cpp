@@ -3,6 +3,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	
+	// load images
 	myImage.loadImage("chagall.jpg");
 	//myImage.loadImage("http://www.viajejet.com/wp-content/viajes/parque-escultorico-de-a-coru%C3%B1a.jpg");
 	
