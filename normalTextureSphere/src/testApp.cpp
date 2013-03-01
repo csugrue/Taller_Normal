@@ -4,10 +4,11 @@
 void testApp::setup(){
 	
 	glEnable(GL_DEPTH_TEST); //enable depth comparisons and update the depth buffer
-	ofDisableArbTex(); //needed for textures to work with spheres (call before loading the image)
-	
-	texImage.loadImage("geometric_bw.jpg");
-	texImage.resize(texImage.getWidth(),texImage.getWidth()*.5);
+	//ofDisableArbTex(); //for power of 2 textures
+	ofEnableNormalizedTexCoords(); // for other size textures
+
+	// texture is power of 2 size (2048x1024) or (1024x512) for example
+	texImage.loadImage("dog-9.jpg");
 	
 	ofSetVerticalSync(true);
 	ofSetFrameRate(60);
@@ -28,6 +29,7 @@ void testApp::draw(){
 	easyCam.begin();
 	texImage.getTextureReference().bind();
 	ofSphere(0, 0, 0, 400);
+	texImage.getTextureReference().unbind();
 	easyCam.end();
 }
 
